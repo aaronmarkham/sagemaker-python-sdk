@@ -197,6 +197,32 @@ Preview the site with a Python web server:
 
 View the website by visiting http://localhost:8000
 
+
+MXNet SageMaker Estimators
+--------------------------
+
+By using MXNet SageMaker Estimators, you can train and host MXNet models on Amazon SageMaker.
+
+Supported versions of MXNet: ``0.12.1``, ``1.0.0``, ``1.1.0``, ``1.2.1``, ``1.3.0``, ``1.4.0``, ``1.4.1``, ``1.6.0``.
+
+Supported versions of MXNet for Elastic Inference: ``1.3.0``, ``1.4.0``, ``1.4.1``.
+
+We recommend that you use the latest supported version, because that's where we focus most of our development efforts.
+
+For more information, see `Using MXNet with the SageMaker Python SDK`_.
+
+.. _Using MXNet with the SageMaker Python SDK: https://sagemaker.readthedocs.io/en/stable/using_mxnet.html
+
+
+TensorFlow SageMaker Estimators
+-------------------------------
+
+By using TensorFlow SageMaker Estimators, you can train and host TensorFlow models on Amazon SageMaker.
+
+Supported versions of TensorFlow: ``1.4.1``, ``1.5.0``, ``1.6.0``, ``1.7.0``, ``1.8.0``, ``1.9.0``, ``1.10.0``, ``1.11.0``, ``1.12.0``, ``1.13.1``, ``1.14.0``, ``1.15.0``, ``1.15.2``, ``2.0.0``, ``2.0.1``, ``2.1.0``.
+
+Supported versions of TensorFlow for Elastic Inference: ``1.11.0``, ``1.12.0``, ``1.13.1``, ``1.14.0``.
+
 Scikit-learn SageMaker Estimators
 ---------------------------------
 

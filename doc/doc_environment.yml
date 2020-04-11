@@ -1,0 +1,23 @@
+name: sagemaker-docs
+channels:
+- conda-forge
+dependencies:
+- conda>=4.6.13
+- jupyter
+- matplotlib
+- notebook
+- pip
+- python==3.7
+- tox
+- pip:
+  - awscli
+  - breathe
+  - mock
+  - nbconvert
+  - nbsphinx>=0.4.2
+  - notedown
+  - pypandoc
+  - recommonmark
+  - sagemaker
+  - sphinx==2.2.2
+  - sphinx-rtd-theme
